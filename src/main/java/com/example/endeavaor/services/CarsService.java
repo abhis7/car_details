@@ -1,9 +1,9 @@
-package services;
+package com.example.endeavaor.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.CarsDetailsRepository;
-import entity.CarsDetails;
+import com.example.endeavaor.repository.CarsDetailsRepository;
+import com.example.endeavaor.entity.CarsDetails;
 
 import java.util.List;
 import java.util.Optional;

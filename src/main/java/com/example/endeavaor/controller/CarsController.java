@@ -1,11 +1,11 @@
-package controller;
+package com.example.endeavaor.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import services.CarsService;
-import entity.CarsDetails;
+import com.example.endeavaor.services.CarsService;
+import com.example.endeavaor.entity.CarsDetails;
 
 import java.util.List;
 import java.util.Optional;
